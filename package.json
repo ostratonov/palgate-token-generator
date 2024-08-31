@@ -1,0 +1,33 @@
+{
+  "name": "palgate-token-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "run": "node index.js",
+    "lint": "eslint --cache --fix"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ostratonov/palgate-token-generator.git"
+  },
+  "keywords": [
+    "integration",
+    "palgate"
+  ],
+  "author": "sstratonov@me.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ostratonov/palgate-token-generator/issues"
+  },
+  "homepage": "https://github.com/ostratonov/palgate-token-generator#readme",
+  "dependencies": {
+    "eslint": "^9.9.1",
+    "ffi-napi": "^4.0.3",
+    "ref-napi": "^3.0.3"
+  }
+}
